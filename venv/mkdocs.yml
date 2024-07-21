@@ -1,0 +1,30 @@
+site_name: S. W. F. van Rijk | Portfolio
+theme:
+  name: material
+  logo: assets/logo.png
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      togggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: dark-purple
+      accent: blue
+    - scheme: slate
+      togggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: dark-purple
+      accent: gray
+
+nav:
